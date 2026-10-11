@@ -33,7 +33,15 @@ const products = <Product>[
     id: 1,
     name: 'حقيبة يومية عملية',
     category: 'إكسسوارات',
-    price: 189,
+    price: 189,AppBar(
+      title: const Text('Title'),
+      actions: [
+        IconButton(
+          icon: const Icon(Icons.search),
+          onPressed: () {},
+        ),
+      ],
+    
     color: Color(0xFFB8D8D8),
     description: 'حقيبة أنيقة بخامات متينة ومساحة مناسبة للاستخدام اليومي.',
   ),
